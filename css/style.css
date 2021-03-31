@@ -9,6 +9,7 @@ main {
  .explore {
    color: #000000;
    font-family: serif,monospace;
+   word-spacing: 20px; 
 }   
    
 .categorias {
