@@ -2,13 +2,14 @@ main {
    display: flex;
 }
 
-.explore {
+.nome {
    background-color: #84e0c6;
+
+ .explore {
+   color: #000000;
 }   
    
 .categorias {
    display: block;
-   p {
-    word-spacing: 30px;
-   }   
+ 
 }
