@@ -13,6 +13,18 @@ main {
 }   
    
 .categorias {
-   font-family: serif,monospace;
+  font-family: serif,monospace;
+ 
+.lista {
+  font-family: serif,monospace;
+  float: left;
+  width: 33.33%;
+
+ .destaques::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
  
 }
