@@ -1,14 +1,46 @@
-﻿main {
-   display: flex;
+main {
+    display: flex;
+  }
+  
+  .menu {
+    width: 95%; /largura/
+    padding: 2rem;  /preenchimeto/
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    background-color: #ffd209;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+  }
+  
+  .nome {
+    color: #000;
+    font-weight: 900;
+    font-size: 50px;
+    padding-left: 50px;
+    height: 50px;
+    font-family: "Myriad Pro",sans-serif;
 }
 
-.explore {
-   background-color: #55c69e;
-}   
-   
-.categorias {
-   display: block;
-   p {
-    word-spacing: 30px;
-   }   
-}   
+  .conteudo {
+    width: 95%;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    }
+
+  .categorias {
+    width: 95%;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .comunidade {
+    width: 95%;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
