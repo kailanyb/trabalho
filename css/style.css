@@ -4,12 +4,14 @@ main {
 
 .nome {
    background-color: #84e0c6;
-
+   font-family: serif,monospace;
+   
  .explore {
    color: #000000;
+   font-family: serif,monospace;
 }   
    
 .categorias {
-   display: block;
+   font-family: serif,monospace;
  
 }
