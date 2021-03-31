@@ -5,10 +5,6 @@ main {
 .nome {
    background-color: #84e0c6;
    font-family: serif,monospace;
-   font-weight:900;
-   font-size:50px;
-   padding-left:50px;
-   height:50px;
    
  .explore {
    color: #000000;
