@@ -20,10 +20,11 @@ main {
   float: left;
   width: 16.66%;
 
- .destaques::after {
+.destaques::after {
   content: "";
   clear: both;
-  display: table;
+  ul li {
+    display: inline-block;
 }
 
  
