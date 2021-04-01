@@ -21,7 +21,27 @@ main {
     height: 50px;
     font-family: "Myriad Pro",sans-serif;
 }
-   
+
+nav h2{
+  width: 95%;
+  padding: 2rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.creceitas {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+  }
+
+  .creceitas li{
+    margin: 5%;
+  }
+
  .explore {
    color: #000000;
    font-family: serif,monospace;
