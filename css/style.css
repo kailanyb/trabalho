@@ -2,6 +2,15 @@ main {
    display: flex;
 }
 
+img {
+  max-width: 100%;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+
+}
+
 .menu {
     width: 95%; 
     padding: 2rem;  
@@ -41,27 +50,6 @@ nav h2{
   .creceitas li{
     margin: 5%;
   }
-
- .explore {
-   color: #000000;
-   font-family: serif,monospace;
-   
-}   
-   
-.categorias {
-  font-family: serif,monospace;
- 
-.lista {
-  font-family: serif,monospace;
-  float: left;
-  width: 16.66%;
-
-.destaques::after {
-  content: "";
-  clear: both;
-  ul li {
-    display: inline-block;
-}
 
  
 }
