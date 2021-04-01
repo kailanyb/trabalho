@@ -2,9 +2,25 @@ main {
    display: flex;
 }
 
-.nome {
-   background-color: #84e0c6;
-   font-family: serif,monospace;
+.menu {
+    width: 95%; 
+    padding: 2rem;  
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    position: relative;
+    background-color: #ffdb0f;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+  }
+  
+  .nome {
+    color: #000;
+    font-weight: 900;
+    font-size: 50px;
+    padding-left: 50px;
+    height: 50px;
+    font-family: "Myriad Pro",sans-serif;
+}
    
  .explore {
    color: #000000;
