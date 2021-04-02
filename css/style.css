@@ -3,11 +3,11 @@ main {
 }
 
 img {
-  max-width: 50%;
+  max-width: 40%;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  margin-top: 25px;
+  width: 80px;
+  height: 80px;
+  margin-top: 15px;
 
 }
 
