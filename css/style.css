@@ -62,12 +62,8 @@ nav h2{
     position:absolute;
     bottom:0;
     width:100%;
+    border="0";
+    cellpadding="10";
+    background-color: #c2f0c2;
 }
-
-#rodape {
-   border="0"
-   width="100%"
-   cellpadding="10"
-   background-color: #c2f0c2;
- 
 }
