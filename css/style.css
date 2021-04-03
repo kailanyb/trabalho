@@ -44,12 +44,25 @@ nav h2{
     text-align: center;
     align-items: center;
     display: flex;
-    list-style: none;
-  }
+    flex-direction: column;
 
-  .creceitas li{
-    margin: 5%;
-  }
+ }
+
+
+ }
+
+.linha1 {
+    display: flex;
+}
+
+.linha2 {
+    display: flex;
+}
+
+.linha3 {
+    display: flex;
+}
+
 
 .fim {
     min-height:100%;
