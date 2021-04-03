@@ -6,8 +6,8 @@ img {
   max-width: 100%;
   border-radius: 50%;
   width: 200px;
-  height: 80px;
-  margin-top: 20px;
+  height: 200px;
+  margin-top: 25px;
 
 }
 
@@ -18,12 +18,12 @@ img {
     text-align: center;
     align-items: center; 
     position: relative;
-    background-color: #ffdb0f;
+    background-color: #000000;
     font-family: Tahoma, Verdana, Geneva, sans-serif;
   }
   
   .nome {
-    color: #000;
+    color: rgb(255, 214, 29);
     font-weight: 900;
     font-size: 50px;
     padding-left: 50px;
