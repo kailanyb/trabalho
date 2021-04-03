@@ -40,6 +40,9 @@ nav h2{
 }
 
 .creceitas {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
 
