@@ -1,10 +1,39 @@
-main {
-   display: flex;
-}
 
 @media only screen and (max-device-width: 900px) {
    /* .menu {
    width/:100%; } */
+}
+
+/*CSS GERAL DE TODAS AS PÁGINAS*/
+body {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  margin: 0%;
+  width: 100%;
+}
+
+main {
+    display: flex;
+  }
+
+.menu {
+  width: 95%; 
+  margin: 0%;
+  padding: 2rem;  
+  justify-content: center;
+  text-align: center;
+  align-items: center; 
+  background-color: #000000;
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+  
+.nome {
+  color: rgb(255, 214, 29);
+  font-weight: 900;
+  font-size: 50px;
+  padding-left: 50px;
+  height: 50px;
+  font-family: "Myriad Pro",sans-serif;
 }
 
 img {
@@ -13,72 +42,43 @@ img {
   width: 200px;
   height: 200px;
   margin-top: 25px;
-
 }
 
-.menu {
-    width: 95%; 
-    padding: 2rem;  
-    justify-content: center;
-    text-align: center;
-    align-items: center; 
-    position: relative;
-    background-color: #000000;
-    font-family: Tahoma, Verdana, Geneva, sans-serif;
-  }
-  
-  .nome {
-    color: rgb(255, 214, 29);
-    font-weight: 900;
-    font-size: 50px;
-    padding-left: 50px;
-    height: 50px;
-    font-family: "Myriad Pro",sans-serif;
+.itemr {
+  margin-left: 2%;
 }
+
+/*CSS DA PÁGINA INICIAL*/
 
 nav h2{
-  width: 95%;
+  width: 100%;
   padding: 2rem;
+  font-size: 30px;
   justify-content: center;
-  text-align: left;
+  text-align: center;
   align-items: center;
 }
 
-.creceitas {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-
- }
-
-
- }
-
-.linha1 {
-    display: flex;
+.conteudo, .categorias {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  list-style: none;
 }
 
-.linha2 {
-    display: flex;
+.conteudo li {
+  margin: 4%;
 }
 
-.linha3 {
-    display: flex;
+.categorias li{
+  margin: 2%;
 }
 
-
-.fim {
-    min-height:100%;
-    position:relative;
-    width:800px;
-}
-
-.footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-
-}
+.comunidade {
+  width: 95%;
+  padding: 2rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
