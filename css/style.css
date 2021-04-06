@@ -2,6 +2,11 @@ main {
    display: flex;
 }
 
+@media only screen and (max-device-width: 900px) {
+   /* .menu {
+   width/:100%; } */
+}
+
 img {
   max-width: 100%;
   border-radius: 50%;
